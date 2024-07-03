@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Search</title>
+    <link rel="stylesheet" href="APPAS.CSS">
+</head>
+<body>
+
+    <div class="container">
+        <div class="search-bar">
+            <input type="text" id="txtSearchValue" placeholder="Search for a country...">
+            <input type="button" value="Search" onclick="searchCountry()">
+        </div>
+
+        <div class="results">
+            <h1 id="officialName">Official Name</h1>
+            <h2 id="name">Name</h2>
+            <div id="img"></div>
+        </div>
+
+        <table id="tbl">
+            <thead>
+                <tr>
+                    <th>Field</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script src="APPS.JS"></script>
+</body>
+</html>
